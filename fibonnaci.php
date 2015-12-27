@@ -1,24 +1,5 @@
 <?php
 
-//////////////////////////////////////////////
-//											//
-//  Title :      Fibonnacci Series    		//
-//    										//
-//  Started by : FLux						//
-//    										//
-//  Time : 		 20:00 hrs					//
-//                                          //
-//  Editor : 	 Sublime Text               //
-//                                          //
-//	Version:	 0.6(pre Alpha)				//
-//                                          //
-//  MOTIVATED by the PAIN of REJECTION  	//
-//											//
-//////////////////////////////////////////////
-
-
-
-
 // ==> Method 1: Using For Loops
 
 $one = 1;
@@ -39,7 +20,7 @@ for ($i=0; $i < 10 ; $i++) {
 *	@author 	: FLux
 *	@copyright	: PiroSoft Inc
 *	@param 		: The first Number to start
-*   @param 		: The Second Number to start
+*   	@param 		: The Second Number to start
 *	@param 		: The Length of the Fibonnaaci Series
 *	@return 	: Return Empty Value after the reaching the specified length 
 *
