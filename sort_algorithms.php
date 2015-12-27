@@ -11,7 +11,7 @@ $array_to_sort = [27,1324,12,354,321,480,660,343,123,43,13,3,13,1,32];
 *	[Bubble Sort]
 *	@author 	: FLux
 *	@copyright	: PiroSoft Inc
-*   	@version    : 0.10 (Beta)
+*   @version    : 0.10 (Beta)
 *	@param 		: The array to sort
 *	@return 	: Sorted array
 */
