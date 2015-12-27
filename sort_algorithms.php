@@ -1,18 +1,5 @@
 <?php
 
-//////////////////////////////////////////////
-//											//
-//  Title :      Sorting Alogrithms         //
-//    										//
-//  Started by : Flux						//
-//    										//
-//  Time : 		 10:10 hrs					//
-//                                          //
-//  Editor : 	 Sublime Text               //
-//                                          //
-//  MOTIVATED by the PAIN of REJECTION  	//
-//											//
-//////////////////////////////////////////////
 
 $array_to_sort = [27,1324,12,354,321,480,660,343,123,43,13,3,13,1,32];
 
@@ -24,7 +11,7 @@ $array_to_sort = [27,1324,12,354,321,480,660,343,123,43,13,3,13,1,32];
 *	[Bubble Sort]
 *	@author 	: FLux
 *	@copyright	: PiroSoft Inc
-*   @version    : 0.10 (Beta)
+*   	@version    : 0.10 (Beta)
 *	@param 		: The array to sort
 *	@return 	: Sorted array
 */
@@ -58,7 +45,7 @@ r_print(bubble_sort($array_to_sort));
 *	[Insertion Sort]
 *	@author 	: FLux
 *	@copyright	: PiroSoft Inc
-*   @version    : 0.5 (pre Alpha)
+	@version    : 0.5 (pre Alpha)
 *	@param 		: The array to sort
 *	@return 	: Sorted array
 */
