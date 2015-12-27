@@ -1,19 +1,3 @@
-//////////////////////////////////////////////
-//											//
-//  Title :      Print a JSON Object    	//
-//    										//
-//  Started by : FLux						//
-//    										//
-//  Time : 		 15:30 hrs					//
-//                                          //
-//  Editor : 	 JS BIN               		//
-//                                          //
-//	Version:	 0.3						//
-//                                          //
-//  INSPIRED by the DESIRE to be BEST  		//
-//											//
-//////////////////////////////////////////////
-
 
 data=JSON.parse('{"name":"nikhil","age":23,"lang":["c","php","js","html"]}');
 
@@ -21,7 +5,7 @@ function rec_json (obj) {
 	
 	if (obj !== null && typeof obj == "object") {
 		Object.keys(obj).map(function(key,val){
-
+	
 			if(obj[key] !== null && typeof obj[key] == "object"){
 				rec_json(obj[key]);
 			}else if(Object.prototype.toString.call( obj[key] ) === '[object Array]'){
@@ -29,14 +13,14 @@ function rec_json (obj) {
 			}else{
 				console.log(obj[key]);
 			}
-
+	
 		});	
 	}else if(Object.prototype.toString.call( obj ) === '[object Array]'){
-
+	
 		for (var i = 0; i < obj.length; i++) {
 			console.log(obj[i]);
 		};
-
+	
 	}else{
 		console.log("please pass a valid obj to parse");
 	}
