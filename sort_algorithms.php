@@ -7,15 +7,6 @@ $array_to_sort = [27,1324,12,354,321,480,660,343,123,43,13,3,13,1,32];
 //Bubble Sort//
 ///////////////
 
-/**
-*	[Bubble Sort]
-*	@author 	: FLux
-*	@copyright	: PiroSoft Inc
-*   @version    : 0.10 (Beta)
-*	@param 		: The array to sort
-*	@return 	: Sorted array
-*/
-
 function bubble_sort($array_to_sort = '')
 {
 	if ((is_array($array_to_sort) && count($array_to_sort) > 1)){
@@ -40,15 +31,6 @@ r_print(bubble_sort($array_to_sort));
 //////////////////
 //Insertion Sort//
 //////////////////
-
-/**
-*	[Insertion Sort]
-*	@author 	: FLux
-*	@copyright	: PiroSoft Inc
-	@version    : 0.5 (pre Alpha)
-*	@param 		: The array to sort
-*	@return 	: Sorted array
-*/
 
 function insertion_sort($array_to_sort='')
 {
@@ -100,15 +82,6 @@ r_print(insertion_sort($array_to_sort));
 //////////////
 //Merge Sort//
 //////////////
-
-/**
-*	[Merge Sort]
-*	@author 	: FLux
-*	@copyright	: PiroSoft Inc
-*   @version    : 0.6 (alpha)
-*	@param 		: The array to sort
-*	@return 	: Sorted array
-*/
 
 function merge_sort($array_to_sort = '')
 {
@@ -175,18 +148,6 @@ r_print(merge_sort($array_to_sort));
 //Quick Sort//
 ///////////////
 
-/**
-*	[Quick Sort]
-*	@author 	: FLux
-*	@copyright	: PiroSoft Inc
-*   @version    : 0.5 (pre Alpha)
-*	@param 		: array to sort
-*	@param 		: lower bound of the array
-*	@param 		: higher bound of the array
-*	@return 	: Sorted array
-*/
-
-
 function qs($a, $low, $high)
 {
 	
@@ -239,14 +200,6 @@ r_print($array_to_sort);
 ////////////////
 //Pretty Print//
 ////////////////
-
-/**
-*	[ Pretty Prints the array]
-*	@author 	: Alons , FLux
-*	@copyright	: Softaculous 
-*	@param 		: Array to display
-*	@return 	: Pretty printed array
-*/
 
 function r_print($data = '')
 {
