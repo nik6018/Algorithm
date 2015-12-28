@@ -1,15 +1,5 @@
 <?php
 
-/*  
-    [power : This functi]
-    @author : Flux
-    @param : base value
-    @param : power
-    @return : value after operation
-
-*/
-
-
 
 function power($base,$power)
 {
