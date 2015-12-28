@@ -34,6 +34,16 @@ function power($base,$power)
 	
 }
 
+function power($base,$power){
+     if($power == 1)
+        return $base;
+    if($power%2 != 0){
+        return $base*$base*power($base,$power = $power - 2);
+    }elseif(!($power/2 != 0)){
+        return $base*power($base,$power = $power - 1);
+    }   
+}
+
 
 
 // Notes :  All the new MIT method of checking the odd even power to reduce the complexity
